@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>tente abrir este site em varios dispositivos diferentes ou aumenta e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/imgp.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>reproduzindo audios</h1>
+    <p>vamos aprender a reproduzir audios em HTML5</p>
+    <audio src="midia/thelost.mp3" controls autoplay></audio>
+    <br>
+    <audio preload="metadata" controls>
+        <source src="midia/SnapSave.io - ALANZOKA _ HMMM QUE DELICINHA _ _ ALAN - MEME BASE + DOWNLOAD (128 kbps).mp3" type="audio/mpeg">
+        <source src="midia/thelost.mp3" type="audio/ogg">
+        <source src="midia/thelost.mp3" type="audio/wav">
+        <p>infelizmente seu navegador nao consegue reproduzir o audio. <a href="midia/thelost.mp3"> clica aqui para baixar!</a></p>
+    </audio>
+   
+    
+</body>
+</html>
